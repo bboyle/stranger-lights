@@ -91,3 +91,7 @@ input[type="text"] {
 input[type="text"]:focus {
 	opacity: 0.67;
 }
+
+input:focus::placeholder {
+	opacity: 0;
+}
